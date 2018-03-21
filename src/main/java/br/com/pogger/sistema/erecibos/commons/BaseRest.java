@@ -8,7 +8,7 @@ import javax.ws.rs.Produces;
 public class BaseRest {
 	@GET
 	@Path("/")
-	@Produces({ "application/json" })
+	@Produces({"application/json"})
 	public String getHelloWorldJSON() {
 	    return "{\"result\":\"" + "REST Api" + "\"}";
 	}
